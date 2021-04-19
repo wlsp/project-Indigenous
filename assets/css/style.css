@@ -1,4 +1,5 @@
 /* 
+font-family: 'Antonio', sans-serif;
 font-family: 'Mr Dafoe', cursive;
 font-family: 'Roboto', sans-serif;
 Font: Santio bold;
@@ -13,7 +14,7 @@ Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff
   src: url(../font/SANTIO/OTP/Santio\Bold.otf);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Roboto:wght@100;300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Mr+Dafoe&family=Roboto:wght@300;400&display=swap');
 
 /* Page Setting */
 * {
@@ -207,13 +208,12 @@ footer button {
     body {
       margin: 0;
       padding: 0;
-      font-family: "Roboto", sans-serif;
     }
 
     main {
       font-size: 0.8em;
       width: 100%;
-      height: 200vh;
+      height: 220vh;
       background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(../img/cleo-topper.jpg);
       background-attachment: fixed;
@@ -232,19 +232,27 @@ footer button {
 
     nav ul li {
       color: #3f3535;
+      font-family: 'Antonio', sans-serif;
     }
 
     nav > img {
-      width: 9.5%;
+      width: 8%;
     }
 
     h1 {
-      font-size: 2.5em;
+      font-size: 2em;
       width: 70%;
+      font-family: 'Antonio', sans-serif;
     }
 
     .content p {
       display: none;
+    }
+
+    span {
+      color: #fff;
+      background-color: #221d1d;
+      font-family: 'Antonio', sans-serif;
     }
 
     .indigenous p {
@@ -253,17 +261,19 @@ footer button {
       text-align: justify;
       margin-left: -10%;
       margin-top: -25%;
+      font-family: 'Antonio', sans-serif;
     }
 
     h2,
     h3,
     h4 {
       font-size: 4em;
-      
+      font-family: 'Antonio', sans-serif;
     }
 
     .facts div:nth-of-type(1) {
-      margin-top: 50%;
+      margin-top: 70%;
+      font-family: 'Antonio', sans-serif;
     }
     
     .facts div {
@@ -271,10 +281,13 @@ footer button {
     }
 
     .facts p {
-      font-size: 1.7em;
+      font-size: 1.5em;
+      font-family: 'Antonio', sans-serif;
+      text-transform: uppercase;
     }
 
     p.workers {
+      font-family: 'Antonio', sans-serif;
       text-align: justify;
       margin-left: -20%;
       padding-top: 20%;
@@ -301,7 +314,7 @@ footer button {
     }
 
     footer {
-      height: 165vw;
+      height: 175vw;
       background-color: #000;
       color: #fff;
     }
@@ -310,6 +323,7 @@ footer button {
       font-size: 2em;
       width: 100%;
       margin-top: -30%;
+      font-family: 'Antonio', sans-serif;
     }
     
     footer button {
