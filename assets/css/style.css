@@ -260,7 +260,7 @@ footer button {
       width: 90%;
       text-align: justify;
       margin-left: -10%;
-      margin-top: -30%;
+      margin-top: -15%;
       font-family: 'Antonio', sans-serif;
     }
 
@@ -272,7 +272,7 @@ footer button {
     }
 
     .facts div:nth-of-type(1) {
-      margin-top: 95%;
+      margin-top: 105%;
       font-family: 'Antonio', sans-serif;
     }
     
@@ -281,7 +281,7 @@ footer button {
     }
 
     .facts p {
-      font-size: 1.3em;
+      font-size: 1.1em;
       font-family: 'Antonio', sans-serif;
       text-transform: uppercase;
     }
@@ -291,7 +291,7 @@ footer button {
       text-align: justify;
       margin-left: -20%;
       padding-top: 20%;
-      font-size: 1.5em;
+      font-size: 1.1em;
       width: 90%;
       line-height: 1.4em;
     }
