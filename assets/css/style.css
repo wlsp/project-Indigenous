@@ -213,7 +213,7 @@ footer button {
     main {
       font-size: 0.8em;
       width: 100%;
-      height: 300vh;
+      height: 285vh;
       background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url(../img/cleo-topper.jpg);
       background-attachment: fixed;
@@ -272,7 +272,7 @@ footer button {
     }
 
     .facts div:nth-of-type(1) {
-      margin-top: 70%;
+      margin-top: 80%;
       font-family: 'Antonio', sans-serif;
     }
     
@@ -281,7 +281,7 @@ footer button {
     }
 
     .facts p {
-      font-size: 1.5em;
+      font-size: 1.3em;
       font-family: 'Antonio', sans-serif;
       text-transform: uppercase;
     }
